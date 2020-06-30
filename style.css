@@ -9,11 +9,16 @@ nav {
 }
 
 h1 {
-  font-family: "Roboto Mono", monospace;
   text-align: center;
   font-size: 2.25;
+  font-family: "Roboto Mono", monospace;
 }
 h4 {
+  font-family: "Roboto Mono", monospace;
+}
+
+ul {
+  list-style: none;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -22,12 +27,13 @@ h4 {
   text-align: center;
   line-height: 1.25;
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 .logo-image {
-  width: 25%;
+  width: 35%;
   height: auto;
-  padding: 10px 50px;
+  padding: 15px 50px;
 }
 
 .main-page {
@@ -40,8 +46,4 @@ h4 {
 
 .fab {
   padding: 1%;
-}
-
-ul {
-  list-style: none;
 }
