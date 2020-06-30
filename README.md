@@ -1,6 +1,4 @@
-��# FCCSF
-
-Welcome to the Free Code Camp San Francisco (FCCSF) Web Project.
+# Welcome to the Free Code Camp San Francisco (FCCSF) Web Project.
 
 The goals of this project are:
 
@@ -9,7 +7,7 @@ The goals of this project are:
 3. To have a project where we can collaborate and learn together.
 
 
-How can I help? 
+# How can I help? 
 
 Anyone is welcome to fork this project and then create pull requests.
 Right now we need:
