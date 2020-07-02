@@ -22,6 +22,9 @@ ul {
   list-style: none;
   font-family: "Roboto Mono", monospace;
 }
+li {
+  font-size: 1em;
+}
 
 button {
   border: none;
@@ -29,9 +32,35 @@ button {
   color: black;
 }
 
+/* unvisited link */
+a:link {
+  color: #00471b;
+}
+
+/* visited link */
+a:visited {
+  color: #acd157;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.page-format {
+  padding: 0 6em;
+  margin: 1% 10%;
+}
+
+/* text styling */
 .description {
   font-size: 1.25em;
-  text-align: center;
+  text-align: justify;
   line-height: 1.25;
   padding: 2%;
   font-family: "Roboto Mono", monospace;
@@ -51,6 +80,14 @@ button {
   max-width: 100vw;
 }
 
+/* Icon styling */
 .fab {
   padding: 1%;
+}
+
+/* code of conduct section */
+.conduct {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
