@@ -35,16 +35,17 @@ button {
 /* unvisited link */
 a:link {
   color: #00471b;
+  font-weight: 600;
 }
 
 /* visited link */
 a:visited {
-  color: #acd157;
+  color: #00471b;
 }
 
 /* mouse over link */
 a:hover {
-  color: black;
+  color: #acd157;
 }
 
 /* selected link */
