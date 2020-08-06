@@ -42,17 +42,17 @@ h4 {
   padding: 1%;
 }
 
-ul {
+.social-media-list {
   list-style: none;
   text-align:center;
 }
-li {
+.social-media-icon {
   display: inline;
   margin: auto;
 }
 
 @media (max-width: 480px) {
-    li {
+    .social-media-icon {
       display: list-item
     }
 }
