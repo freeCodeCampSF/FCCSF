@@ -34,5 +34,6 @@ In order to maintain consistency we'd like contributors to consult the following
 
 2. The freeCodeCamp Applied Accessability section of the Responsive Design Certificate https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/
 
-#Live Site
+# Live Site
+
 View the live site here: https://freecodecampsf.github.io/FCCSF/
