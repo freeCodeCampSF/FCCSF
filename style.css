@@ -54,8 +54,8 @@ a:active {
 }
 
 .page-format {
-  padding: 0 6em;
-  margin: 1% 10%;
+  padding: 0;
+  margin: auto;
 }
 
 /* text styling */
