@@ -1,31 +1,74 @@
 body {
-  font-family: "Lato", sans-serif;
+  max-width: 100vw;
 }
 
 nav {
   background-color: #0a0a23;
   color: #ffffff;
+  width: 100vw;
   font-family: "Roboto Mono", monospace;
 }
 
 h1 {
-  font-family: "Roboto Mono", monospace;
   text-align: center;
   font-size: 2.25;
+  font-family: "Roboto Mono", monospace;
 }
 h4 {
   font-family: "Roboto Mono", monospace;
 }
 
+ul {
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+li {
+  font-size: 1em;
+}
+
+button {
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+/* unvisited link */
+a:link {
+  color: #00471b;
+  font-weight: 600;
+}
+
+/* visited link */
+a:visited {
+  color: #00471b;
+}
+
+/* mouse over link */
+a:hover {
+  color: #acd157;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.page-format {
+  padding: 0 6em;
+  margin: 1% 10%;
+}
+
+/* text styling */
 .description {
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 1.25em;
+  text-align: justify;
   line-height: 1.25;
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 .logo-image {
-  width: 25%;
+  width: 35%;
   height: auto;
   padding: 10px 50px;
 }
@@ -35,24 +78,17 @@ h4 {
 }
 
 .header-img {
-  width: 100vw;
+  max-width: 100vw;
 }
 
+/* Icon styling */
 .fab {
   padding: 1%;
 }
 
-.social-media-list {
-  list-style: none;
-  text-align:center;
-}
-.social-media-icon {
-  display: inline;
-  margin: auto;
-}
-
-@media (max-width: 480px) {
-    .social-media-icon {
-      display: list-item
-    }
+/* code of conduct section */
+.conduct {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
