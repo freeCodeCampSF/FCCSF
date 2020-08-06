@@ -44,4 +44,15 @@ h4 {
 
 ul {
   list-style: none;
+  text-align:center;
+}
+li {
+  display: inline;
+  margin: auto;
+}
+
+@media (max-width: 480px) {
+    li {
+      display: list-item
+    }
 }
