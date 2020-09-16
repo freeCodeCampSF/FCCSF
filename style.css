@@ -1,3 +1,7 @@
+@font-face {
+  font-family: saxMono, url(./fonts/saxmono.ttf) .format("truetype");
+}
+
 body {
   max-width: 100vw;
 }
@@ -76,13 +80,27 @@ a:active {
   padding: 2%;
   font-family: "Roboto Mono", monospace;
 }
-
-.logo-image {
-  width: 35%;
-  height: auto;
-  padding: 10px 50px;
+/* Branding */
+.container-branding {
+  font-family: saxMono;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
+  margin-left: 1rem;
 }
-
+.logo {
+  width: 3rem;
+  height: auto;
+  margin: 0 0.5em;
+}
+@media screen and (max-width: 1024px) {
+  .corp-text,
+  .chapter-text {
+    display: none;
+  }
+}
 .main-page {
   background-color: #f5f6f7;
 }
@@ -97,8 +115,6 @@ a:active {
 }
 
 .footerButtons {
-
-  
 }
 
 /* code of conduct section */
