@@ -1,6 +1,5 @@
 @font-face {
-  font-family: saxMono;
-  src: url(./fonts/saxmono.ttf);
+  font-family: saxMono, url(./fonts/saxmono.ttf) .format("truetype");
 }
 
 body {
