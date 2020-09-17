@@ -5,21 +5,25 @@
   font-family: "Roboto Mono", monospace;
 }
 
+@font-face {
+  font-family: saxMono, url(./fonts/saxmono.ttf) .format("truetype");
+}
+
 /*** nav section ***/
 nav {
   position: fixed;
   background-color: #0a0a23;
   color: #ffffff;
   width: 100vw;
-  height: 50px;
+  height: 3rem;
   z-index: 1;
 }
 
 .logo-image {
   display: block;
   width: auto;
-  height: 24px;
-  margin: 8px 0;
+  height: 1.3rem;
+  margin: 0.5rem 0;
   padding-left: 1rem
 }
 
@@ -34,7 +38,7 @@ li {
 /* wrapper pushes section under fixed nav */
 .main-section-wrapper {
   position: relative;
-  top: 50px;
+  top: 3rem;
 }
 
 /* hero image */
@@ -96,6 +100,7 @@ a:hover {
 a:active {
   color: black;
 }
+
 /* Icon styling */
 .fab {
   padding: .5rem;
@@ -104,7 +109,7 @@ a:active {
 button {
   border: none;
   background-color: white;
-  color: black;
+  color: black
 }
 
 /* code of conduct section */
@@ -114,6 +119,7 @@ button {
 }
 
 /* media queries */
+/* font sizes, padding, margin set to rem controlled by html font-size globally */
 @media(min-width:640px){
   html{
     font-size: 18px
