@@ -1,33 +1,104 @@
-body {
-  max-width: 100vw;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
 }
 
+/*** nav section ***/
 nav {
+  position: fixed;
   background-color: #0a0a23;
   color: #ffffff;
   width: 100vw;
-  font-family: "Roboto Mono", monospace;
+  height: 50px;
+  z-index: 1;
 }
 
-h1 {
-  text-align: center;
-  font-size: 2.25;
-  font-family: "Roboto Mono", monospace;
-}
-h3 {
-  font-size: 1.5em;
-  font-family: "Roboto Mono", monospace;
-}
-h4 {
-  font-family: "Roboto Mono", monospace;
+.logo-image {
+  display: block;
+  width: auto;
+  height: 24px;
+  margin: 8px 0;
+  padding-left: 1rem
 }
 
 ul {
   list-style: none;
-  font-family: "Roboto Mono", monospace;
 }
+
 li {
   font-size: 1em;
+}
+
+/* wrapper pushes section under fixed nav */
+.main-section-wrapper {
+  position: relative;
+  top: 50px;
+}
+
+/* hero image */
+.header-img {
+  max-width: 100vw;
+}
+
+/*** main sections ***/
+.page-format {
+  margin: 0 auto;
+}
+/* main sections padding*/
+.main-section{
+  padding: 1.5rem .5rem
+}
+
+section > h1, article > h1 {
+padding-bottom: 1rem
+}
+
+/* text style */
+h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.25;
+}
+
+/*** footer ***/
+footer {
+  width: 100vw;
+  border-top: 1px solid black;
+  padding: 1rem
+}
+/* unvisited link */
+a:link {
+  color: #00471b;
+  font-weight: 600;
+}
+/* visited link */
+a:visited {
+  color: #00471b;
+}
+/* mouse over link */
+a:hover {
+  color: #acd157;
+}
+/* selected link */
+a:active {
+  color: black;
+}
+/* Icon styling */
+.fab {
+  padding: .5rem;
 }
 
 button {
@@ -36,74 +107,21 @@ button {
   color: black;
 }
 
-footer {
-  width: 100vw;
-  padding-top: 1%;
-  border-top: 1px solid black;
-}
-
-/* unvisited link */
-a:link {
-  color: #00471b;
-  font-weight: 600;
-}
-
-/* visited link */
-a:visited {
-  color: #00471b;
-}
-
-/* mouse over link */
-a:hover {
-  color: #acd157;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-
-.page-format {
-  padding: 0;
-  margin: auto;
-}
-
-/* text styling */
-.description {
-  font-size: 1.25em;
-  text-align: justify;
-  line-height: 1.25;
-  padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-
-.logo-image {
-  width: 35%;
-  height: auto;
-  padding: 10px 50px;
-}
-
-.main-page {
-  background-color: #f5f6f7;
-}
-
-.header-img {
-  max-width: 100vw;
-}
-
-/* Icon styling */
-.fab {
-  padding: 1%;
-}
-
-.footerButtons {
-
-  
-}
-
 /* code of conduct section */
 .conduct {
   font-size: 1em;
   text-align: center;
-  font-family: "Roboto Mono", monospace;
+}
+
+/* media queries */
+@media(min-width:640px){
+  html{
+    font-size: 18px
+  }
+}
+
+@media(min-width:767px){
+  html{
+    font-size: 20px
+  }
 }
