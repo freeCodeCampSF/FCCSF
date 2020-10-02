@@ -15,7 +15,8 @@ nav {
   background-color: #0a0a23;
   color: #ffffff;
   overflow: hidden;
-  width: 100vw;
+  width: 100%; /*Changing this to vw will affect the vertical scroll*/
+  padding: 3px 10px; 
   height: 3rem;
   z-index: 1;
 }
