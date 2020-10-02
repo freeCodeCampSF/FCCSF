@@ -141,8 +141,18 @@ button {
     font-size: 20px;
   }
 }
-
-
 /*bio section*/
 /*adding a max height to this so the images are in line*/
-.card-img-top { max-height: 260px;} 
+.img-container {
+  overflow: hidden;
+  height: 350px;
+  max-height: 350px;
+  position: relative;
+}
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
