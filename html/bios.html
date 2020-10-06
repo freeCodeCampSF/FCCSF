@@ -50,26 +50,27 @@
     </head>
 
     <body>
-      <nav>
-        <div class="navbar-brand">
-          <img
-            class="logo-image"
-            src="../img/logo-abbvr.png"
-            SameSite="none Secure"
-          />
-        </div>
-
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="./bios.html">Contributors</a>
-        </div>
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="./about.html">About</a>
-        </div>
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="./faq.html">FAQ</a>
-        </div>
-
-      </nav>
+        <nav class="nav">
+          <a style="color: #ffffff" href="../index.html">
+            <img class="logo-image" src="../img/logo-abbvr.png" />
+          </a>
+    
+          <span class="nav-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+          </span>
+    
+          <ul class="main-nav">
+           <li>
+             <a style="color: #ffffff" href="../html/bios.html">/Contributors</a>
+           </li>
+           <li>
+             <a style="color: #ffffff" href="../html/faq.html">/FAQ</a>
+           </li>
+           <li>
+             <a style="color: #ffffff" href="../html/faq.html">/Blog</a>
+           </li>
+          </ul>
+        </nav>
       <section class="main-section-wrapper">
         <div class="main-page">
           <img
@@ -88,7 +89,7 @@
             </p>
             <div class="container" style="padding-top: 2rem">
               <div class="row">
-                <div class="col-sm">
+                <div class="col-md col-md-4">
                   <!-- cards start here -->
                   <div class="card text-center">
                     <div class="img-container">
@@ -126,7 +127,7 @@
                   <!-- end of card -->
                 </div>
 
-                <div class="col-sm">
+                <div class="col-md col-md-4">
                   <!-- Paul Bio card start here -->
                   <div class="card text-center">
                     <div class="img-container">
@@ -165,7 +166,7 @@
                   <!-- end of card -->
                 </div>
 
-                <div class="col-sm">
+                <div class="col-md col-md-4">
                   <!-- ainne's cards start here -->
                   <div class="card text-center">
                     <div class="img-container">
@@ -267,6 +268,9 @@
       </section>
 
       <!-- Required for bootstrap -->
+
+      <script src="/main.js"></script>
+
       <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
