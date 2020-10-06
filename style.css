@@ -5,29 +5,22 @@
   font-family: "Roboto Mono", monospace;
 }
 
-@font-face {
+
+/* @font-face {
   font-family: saxMono, url(./fonts/saxmono.ttf) .format("truetype");
-}
+} */
 
 /*** nav section ***/
 nav {
   position: fixed;
   background-color: #0a0a23;
   color: #ffffff;
-  overflow: hidden;
   width: 100%; /*Changing this to vw will affect the vertical scroll*/
   padding: 3px 10px; 
   height: 3rem;
   z-index: 1;
 }
-.navbar-brand {
-  overflow: hidden;
-}
 
-.main-page {
-  max-width: 100vw;
-  overflow: hidden;
-}
 .logo-image {
   display: block;
   width: auto;
@@ -36,13 +29,35 @@ nav {
   padding-left: 1rem;
 }
 
-ul {
+.main-nav{
+  background-color: #0a0a23;
+  display: none;
+  justify-content: space-between;
+  width: 300px;
+  /* margin: 0.3rem auto; */
   list-style: none;
+  position: absolute;
+  top: 40px;
+  right: 1rem;
+  padding: 1rem;
 }
 
-li {
-  font-size: 1em;
+/* open dynamically */
+.active{
+  display: flex;
 }
+
+.nav-toggle{
+  font-size: 1.3rem;
+  position: absolute;
+  top: 5px;
+  right: 1rem
+}
+
+/* .main-page {
+  max-width: 100vw;
+  overflow: hidden;
+} */
 
 /* wrapper pushes section under fixed nav */
 .main-section-wrapper {
@@ -162,7 +177,6 @@ button {
   body .img-container {
     height: 390px;
   }
-
 }
 
 @media (min-width: 767px) {
@@ -170,6 +184,17 @@ button {
   html {
     font-size: 20px;
   }
+/*nav mq*/
+.nav-toggle{
+  display: none
+}
+
+.main-nav{
+  display: flex;
+  width: 350px;
+  padding: 0;
+  top: 10px;
+}
 
 /* mq for contrib page */
 body .img-container {
