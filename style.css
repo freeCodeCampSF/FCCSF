@@ -128,31 +128,69 @@ button {
   text-align: center;
 }
 
+
+/*bio section*/
+.card {
+  margin: 1rem
+}
+
+.img-container {
+  overflow: hidden;
+  height: 360px;
+  position: relative;
+}
+
+.card-img-top {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+  height: 100%
+}
+
+
+
 /* media queries */
 /* font sizes, padding, margin set to rem controlled by html font-size globally */
 @media (min-width: 640px) {
+/* base mq */
   html {
     font-size: 18px;
   }
+
+/* mq for contrib page */
+  body .img-container {
+    height: 390px;
+  }
+
 }
 
 @media (min-width: 767px) {
+/* base mq */
   html {
     font-size: 20px;
   }
-}
-/*bio section*/
-/*adding a max height to this so the images are in line*/
-.img-container {
-  overflow: hidden;
-  height: 350px;
-  max-height: 350px;
-  position: relative;
-}
-.card-img-top {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  bottom: 0;
+
+/* mq for contrib page */
+body .img-container {
+  height: 220px;
+ }
+ .card-body > p{
+   font-size: 16px
+ }
+ .card-body > span{
+  font-size: 12px
+ }
+ .card-body > h5{
+  font-size: 22px
+ }
+.card-link {
+  font-size: 16px
+ }
+ .card {
+  margin: 0
+ }
+ .container{
+  max-width: 900px
+ }
 }
