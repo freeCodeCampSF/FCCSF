@@ -5,7 +5,6 @@
   font-family: "Roboto Mono", monospace;
 }
 
-
 /* @font-face {
   font-family: saxMono, url(./fonts/saxmono.ttf) .format("truetype");
 } */
@@ -16,7 +15,7 @@ nav {
   background-color: #0a0a23;
   color: #ffffff;
   width: 100%; /*Changing this to vw will affect the vertical scroll*/
-  padding: 3px 10px; 
+  padding: 3px 10px;
   height: 3rem;
   z-index: 1;
 }
@@ -29,7 +28,7 @@ nav {
   padding-left: 1rem;
 }
 
-.main-nav{
+.main-nav {
   background-color: #0a0a23;
   display: none;
   justify-content: space-between;
@@ -43,15 +42,15 @@ nav {
 }
 
 /* open dynamically */
-.active{
+.active {
   display: flex;
 }
 
-.nav-toggle{
+.nav-toggle {
   font-size: 1.3rem;
   position: absolute;
   top: 5px;
-  right: 1rem
+  right: 1rem;
 }
 
 /* .main-page {
@@ -88,12 +87,12 @@ article > h1 {
 /* text style */
 h1 {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -143,10 +142,9 @@ button {
   text-align: center;
 }
 
-
 /*bio section*/
 .card {
-  margin: 1rem
+  margin: 1rem;
 }
 
 .img-container {
@@ -160,62 +158,60 @@ button {
   position: absolute;
   bottom: 0;
   object-fit: cover;
-  height: 100%
+  height: 100%;
 }
-
-
 
 /* media queries */
 /* font sizes, padding, margin set to rem controlled by html font-size globally */
 @media (min-width: 640px) {
-/* base mq */
+  /* base mq */
   html {
     font-size: 18px;
   }
 
-/* mq for contrib page */
+  /* mq for contrib page */
   body .img-container {
     height: 390px;
   }
 }
 
 @media (min-width: 767px) {
-/* base mq */
+  /* base mq */
   html {
     font-size: 20px;
   }
-/*nav mq*/
-.nav-toggle{
-  display: none
-}
+  /*nav mq*/
+  .nav-toggle {
+    display: none;
+  }
 
-.main-nav{
-  display: flex;
-  width: 350px;
-  padding: 0;
-  top: 10px;
-}
+  .main-nav {
+    display: flex;
+    width: 350px;
+    padding: 0;
+    top: 10px;
+  }
 
-/* mq for contrib page */
-body .img-container {
-  height: 220px;
- }
- .card-body > p{
-   font-size: 16px
- }
- .card-body > span{
-  font-size: 12px
- }
- .card-body > h5{
-  font-size: 22px
- }
-.card-link {
-  font-size: 16px
- }
- .card {
-  margin: 0
- }
- .container{
-  max-width: 900px
- }
+  /* mq for contrib page */
+  body .img-container {
+    height: 220px;
+  }
+  .card-body > p {
+    font-size: 16px;
+  }
+  .card-body > span {
+    font-size: 12px;
+  }
+  .card-body > h5 {
+    font-size: 22px;
+  }
+  .card-link {
+    font-size: 16px;
+  }
+  .card {
+    margin: 0;
+  }
+  .container {
+    max-width: 900px;
+  }
 }
