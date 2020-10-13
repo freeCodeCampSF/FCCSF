@@ -30,6 +30,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap" rel="stylesheet" />
   <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/9983973718.js" crossorigin="anonymous" SameSite="none Secure"></script>
 
   <!-- Bootstrap CSS -->
@@ -40,15 +41,29 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark">
-    <div class="navbar-brand">
-      <img class="logo-image" src="./img/logo-abbvr.png" SameSite="none Secure" />
-     
-    </div>
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="./html/bios.html">Contributors</a>
-    </div>
-  </nav>
+
+    <nav class="nav">
+      <a style="color: #ffffff" href="index.html">
+        <img class="logo-image" src="./img/logo-abbvr.png" />
+      </a>
+
+      <span class="nav-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+
+      <ul class="main-nav">
+       <li>
+         <a style="color: #ffffff" href="./html/bios.html">/Contributors</a>
+       </li>
+       <li>
+         <a style="color: #ffffff" href="./html/faq.html">/FAQ</a>
+       </li>
+       <li>
+         <a style="color: #ffffff" href="./html/faq.html">/Blog</a>
+       </li>
+      </ul>
+    </nav>
+
   <section class="main-section-wrapper">
     <div class="main-page">
       <img class="header-img" src="./img/GoldenGateBridge.jpg" SameSite="none Secure" />
@@ -72,7 +87,7 @@
           </a> and follow us on
           <a href="https://www.instagram.com/freecodecampsf/" target="_blank" rel="noopener noreferrer">Instagram.
           </a> You can also see what the group is working on over on
-          </a> and follow us on
+          </a> 
           <a href="https://github.com/freeCodeCampSF/FCCSF" target="_blank" rel="noopener noreferrer"> Github</a>. All of our meetups are currently online
            so we welcome coders from anywhere to join us. We hope
           to see you at an in-person meetup in the near future!
@@ -162,6 +177,7 @@
     </footer>
   </section>
 
+  <script src="main.js"></script>
 
   <!-- Required for bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
