@@ -49,12 +49,10 @@ toggleNav.addEventListener("click", function(event)
     console.log(window.location.pathname);
     if (window.location.pathname=='/FCCSF/' || window.location.pathname=='/FCCSF/index.html' || window.location.pathname=='/') 
     {
-        var logopath='.'; //one dot if on index page
         var route='/html'; //html if on index page
     } 
     else 
     {
-        var logopath='..'; //two dots in html route
         var route=''; //no route if already in html
     }
 
