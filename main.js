@@ -62,8 +62,8 @@ toggleNav.addEventListener("click", function(event)
     //This will set the html for anything between the nav tag: <nav></nav>
     //Note: If you add more items, change the width of the main-nav in the desktop CSS
     nav.innerHTML=`
-    <a style="color: #ffffff" href="${logopath}/index.html">
-        <img class="logo-image" src="${logopath}/img/logo-abbvr.png" />
+    <a style="color: #ffffff" href="https://freecodecampsf.github.io/FCCSF/index.html">
+        <img class="logo-image" src="https://freecodecampsf.github.io/FCCSF/img/logo-abbvr.png" />
       </a>
 
       <span class="nav-toggle" id="js-navbar-toggle">
