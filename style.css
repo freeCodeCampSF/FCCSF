@@ -37,13 +37,15 @@ nav {
   list-style: none;
   position: absolute;
   top: 40px;
-  right: 1rem;
+  right: 0px;
   padding: 1rem;
 }
 
 /* open dynamically */
 .active {
   display: flex;
+  flex-direction: column;
+  width:100%;
 }
 
 .nav-toggle {
@@ -66,7 +68,7 @@ nav {
 
 /* hero image */
 .header-img {
-  max-width: 100vw;
+  max-width: 100%;
   overflow: hidden;
 }
 
