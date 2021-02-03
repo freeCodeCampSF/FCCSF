@@ -194,7 +194,7 @@ button {
   .main-nav {
     display: flex;
     width: 350px;
-    padding: 0;
+    padding: 0 1rem 0 0;
     top: 10px;
   }
 
