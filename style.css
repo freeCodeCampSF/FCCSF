@@ -64,6 +64,7 @@ nav {
 .main-section-wrapper {
   position: relative;
   top: 3rem;
+  padding-bottom:2rem;
 }
 
 /* hero image */
@@ -110,6 +111,7 @@ h3 {
 
 /*** footer ***/
 footer {
+  margin: 2rem 0 1rem;
   border-top: 1px solid black;
   padding: 1rem;
 }
