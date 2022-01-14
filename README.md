@@ -4,7 +4,7 @@ The goals of this project are:
 
 1. To gather materials and resources related to free code camp San Francisco.
 
-2. To work on an open source project together
+2. To work on an open source project together.
 
 3. To have a project where we can collaborate and learn together.
 
